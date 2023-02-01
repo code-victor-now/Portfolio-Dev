@@ -4,6 +4,7 @@
 }
 
 body {
+    height: 100vh;
     background-color: black;
     color: aliceblue;
 }
@@ -15,6 +16,10 @@ img {
   
   }
 
-.título-destaque {
+.titulo-destaque {
     color: blueviolet;
 }
+
+.apresentacao {
+    display: flex;
+    align-items: center;
