@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -21,5 +22,24 @@ img {
 }
 
 .apresentacao {
+    margin: 10%;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+.apresentacao__conteudo {
+    width: 615px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    
+}
+
+.apresentacao__conteudo__titulo {
+    font-size: 36px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+    font-size: 24px;
+}
