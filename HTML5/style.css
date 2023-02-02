@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,200;0,400;1,100&display=swap" rel="stylesheet');
 * {
     margin: 0;
     padding: 0;
@@ -6,8 +6,10 @@
 
 body {
     height: 100vh;
-    background-color: black;
     color: aliceblue;
+    background-image: url('pink_window.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
@@ -31,7 +33,7 @@ img {
 .apresentacao__conteudo {
     width: 615px;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 100;
+    font-weight: 200;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -47,24 +49,33 @@ img {
     font-size: 24px;
 }
 
+.apresentacao__conteudo__links__subtitulo{
+    font-family: 'Krona One', sans-serif;
+    font-size: 24px;
+}
+
 .apresentacao__conteudo__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     font-size: 18px;
     color: aliceblue;
+    gap: 32px;
     
 }
 
 .apresentacao__conteudo__links__link {
-    background-color: #22d4fd;
+    /* background-color: #22d4fd; */
     width: 240px;
     text-align: center;
-    border-radius: 16px;
     font-size: 20px;
     padding: 20px 0;
     text-decoration: none;
-    color: black;
+    color: #f6f6f6;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
+    border: 2px solid #22d4fd;
+    border-radius: 12px;
     
 }
