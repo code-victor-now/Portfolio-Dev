@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100vh;
+    
     color: aliceblue;
     background-image: url('assets/pink_window.jpg');
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ img {
 }
 
 .apresentacao {
-    margin: 10% 15%;
+    padding: 8% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -85,4 +85,23 @@ img {
 .logo_git {
     
     width: 25px;
+}
+
+.apresentacao__conteudo__links__link:hover {
+    border: 2px solid #2255fd;
+}
+
+.apresentacao__conteudo__links__link:active {
+    border: 2px solid #2277fd;
+    color: #22d4fd;
+}
+
+.rodape {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: black;
+    background-color: #22d4fd;
 }
