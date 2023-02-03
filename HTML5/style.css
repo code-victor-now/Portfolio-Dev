@@ -24,7 +24,7 @@ img {
 }
 
 .apresentacao {
-    padding: 8% 15%;
+    padding: 7% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -97,11 +97,19 @@ img {
 }
 
 .rodape {
-    padding: 20px;
+    padding: 26px;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     font-weight: 400;
     color: black;
     background-color: #22d4fd;
+}
+
+.cabecalho__menu {
+    
+}
+
+.cabecalho__menu__link {
+
 }
