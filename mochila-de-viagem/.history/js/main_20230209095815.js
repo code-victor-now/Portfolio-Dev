@@ -1,6 +1,6 @@
 const form = document.getElementById("novoItem")
 const lista = document.getElementById("lista")
-const itens = []
+CONST ITENS = []
 
 
 form.addEventListener("submit", (evento) => {

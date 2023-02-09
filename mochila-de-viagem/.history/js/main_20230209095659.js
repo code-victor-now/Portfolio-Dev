@@ -1,6 +1,5 @@
 const form = document.getElementById("novoItem")
 const lista = document.getElementById("lista")
-const itens = []
 
 
 form.addEventListener("submit", (evento) => {
@@ -32,8 +31,6 @@ function criaElemento(nome, quantidade) {
     "quantidade": quantidade
    } 
 
-   itens.push(itemAtual)
-
-   localStorage.setItem("item", JSON.stringify(itens)) 
+   localStorage.setItem("item", JSON.stringify(itemAtual)) 
    
 }
