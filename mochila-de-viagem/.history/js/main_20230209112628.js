@@ -21,7 +21,6 @@ form.addEventListener("submit", (evento) => {
 
     if (existe) {
         itemAtual.id = existe.id
-        atualizaElemento(itemAtual)
     } else {
         itemAtual.id = itens.length
         criaElemento(itemAtual)
@@ -48,9 +47,7 @@ function criaElemento(item) {
    novoItem.innerHTML += item.nome 
 
    lista.appendChild(novoItem)
-}
 
-function atualizaElemento(item){
-    document.querySelector("[data-id='"+item.id+"']").innerHTML = item.quantidade
-
+   
+   
 }
