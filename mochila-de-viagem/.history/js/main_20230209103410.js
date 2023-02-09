@@ -1,6 +1,6 @@
 const form = document.getElementById("novoItem")
 const lista = document.getElementById("lista")
-const itens = JSON.parse(localStorage.getItem("itens")) || []
+const itens = localStorage.getItem("itens") || []
 
 console.log(itens)
 
