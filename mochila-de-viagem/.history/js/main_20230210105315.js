@@ -67,7 +67,7 @@ function botaoDeleta() {
     elementoBotao.innerText = "X"
 
     elementoBotao.addEventListener("click", function(){
-        deletaElemento(this.parentNode)
+        deletaElemento(this)
     })
 
     return elementoBotao

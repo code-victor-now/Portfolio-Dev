@@ -63,16 +63,8 @@ function atualizaElemento(item){
 }
 
 function botaoDeleta() {
-    const elementoBotao = document.createElement("button")
+    const elementoBotao = documen.createElement("button")
     elementoBotao.innerText = "X"
 
-    elementoBotao.addEventListener("click", function(){
-        deletaElemento(this.parentNode)
-    })
-
     return elementoBotao
-}
-
-function deletaElemento(tag){
-    tag.remove
 }
