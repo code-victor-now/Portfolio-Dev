@@ -75,5 +75,7 @@ function deletaElemento(tag, id) {
 
     itens.splice(itens.findIndex(elemento => elemento.id === id), 1)
 
+    console.log(itens)
+
     localStorage.setItem("itens", JSON.stringify(itens))
 }
