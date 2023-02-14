@@ -22,7 +22,7 @@ body {
 }
 
 h1{
-    font-size: 3em;
+    font-size: 3.5em;
 }
 
 h3{
@@ -33,13 +33,4 @@ h3{
 .mensagem {
     font-size: 1em;
     margin-top: 50px;
-}
-
-.box {
-    font-size: 2em;
-    border: 2px solid #F99417;
-    margin: 50px;
-    padding: 25px 3em 25px 3em;
-    display: inline-block;
-    border-radius: 16px;
 }

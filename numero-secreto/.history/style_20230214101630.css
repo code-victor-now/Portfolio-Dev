@@ -15,31 +15,4 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    text-align: center;
-    margin: 0;
-    font-family: var(--font-family);
-    font-size: 60px;
-}
-
-h1{
-    font-size: 3em;
-}
-
-h3{
-    font-size: 1.5em;
-    margin-top: 25px;
-}
-
-.mensagem {
-    font-size: 1em;
-    margin-top: 50px;
-}
-
-.box {
-    font-size: 2em;
-    border: 2px solid #F99417;
-    margin: 50px;
-    padding: 25px 3em 25px 3em;
-    display: inline-block;
-    border-radius: 16px;
 }

@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Wire+One&display=swap');
+
+:root{
+    --font-family: 'Wire One', sans-serif;
+    --bg-color: #5D3891;
+    --primary-color: #F99417;
+    --secondary-color: #E8E2E2 ;
+}
+
+body {
+    background-color: #5D3891;
+    color: var(--secondary-color)
+}

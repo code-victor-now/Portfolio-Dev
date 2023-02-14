@@ -38,8 +38,7 @@ h3{
 .box {
     font-size: 2em;
     border: 2px solid #F99417;
-    margin: 50px;
-    padding: 25px 3em 25px 3em;
+    margin: 0.5em;
+    padding: 25px 1em 1em 25px;
     display: inline-block;
-    border-radius: 16px;
 }
