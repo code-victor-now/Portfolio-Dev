@@ -14,3 +14,5 @@ elementoMenorValor.innerHTML = menorValor
 const elementoMaiorValor = document.getElementById('maior-valor') 
 elementoMaiorValor.innerHTML = maiorValor
 
+const elementoSecreto = document.getElementById('numero-secreto')
+elementoSecreto.innerHTML = numeroSecreto
