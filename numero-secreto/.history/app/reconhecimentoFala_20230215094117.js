@@ -1,4 +1,4 @@
-const elementoChute = document.getElementById('chute')
+const elementoChute
 
 window.SpeechRecognition = window.SpeechRecognition || webkitSpeechRecognition;
 const numeroFalado = onSpeak
@@ -10,13 +10,9 @@ recognition.start()
 recognition.addEventListener('result', onSpeak)
 
 function onSpeak(e) {
-    chute = e.results[0][0].transcript
-    exibeChuteNaTela(chute)
+    chute = e.transcript[0][0].transcript
+    exibeChuteNaTela
 }
 
-function exibeChuteNaTela(chute){
-    elementoChute.innerHTML = `
-        <div>Você disse</div>
-        <span class="box">${chute}</span>
-    `
-}
+const elementoNumeroFalado = document.getElementById('numero-falado')
+elementoNumeroFalado.innerHTML = onSpeak
