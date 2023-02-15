@@ -47,3 +47,25 @@ h3{
     display: inline-block;
     border-radius: 16px;
 }
+
+.btn-jogar {
+    border: 2px solid #F99417;
+    color: #E8E2E2;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 50px;
+    font-size: 45px;
+    font-family: var(--font-family);
+    background-color: #5D3891;   
+}
+
+.btn-jogar:hover {
+    border: 2px solid #F99437;
+    background-color: #5D3870;  
+}
+
+.btn-jogar:active {
+    border: 2px solid #F99417;
+    color: #F99417;  
+}
+

@@ -15,6 +15,8 @@ function verificaValor(chute) {
         document.body.innerHTML = `
             <h2>Parabéns! Você é um paranormal!</h2>
             <h3>O número secreto é o ${numeroSecreto}</h3>
+
+            <button id="jogarNovamente" class="btn-jogar">Jogar Novamente</button>
         ` 
     } else if (numero < numeroSecreto) {
     elementoChute.innerHTML += `
@@ -37,3 +39,10 @@ function numeroMaiorOuMenorLimite(numero) {
 }
 
 recognition.addEventListener('end', () => recognition.start())
+
+document.body.addEventListener('click', e => {
+    if(e.target.id == 'jogarNovamente') {
+        window.location.reload()
+    }
+
+})
