@@ -18,15 +18,15 @@ function verificaValor(chute) {
         ` 
     } else if (numero < numeroSecreto) {
     elementoChute.innerHTML += `
-    <div>O número secreto é maior <i class="fa-solid fa-up-long"></i></div>
+    <div>O número secreto é maior <i class="fa-solid fa-up-long"></div>
     `
     } else {
     elementoChute.innerHTML += `
-    <div>O número secreto é menor <i class="fa-solid fa-down-long"></i></div>
+    <div>o Número secreto é menor <i class="fa-solid fa-down-long"></div>
     `
     }
 
-}
+
 
 function chuteInvalido(numero) {
     return Number.isNaN(numero)
@@ -36,4 +36,4 @@ function numeroMaiorOuMenorLimite(numero) {
     return numero > maiorValor || numero < menorValor
 }
 
-recognition.addEventListener('end', () => recognition.start())
+}

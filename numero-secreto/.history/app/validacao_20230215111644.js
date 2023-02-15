@@ -36,4 +36,4 @@ function numeroMaiorOuMenorLimite(numero) {
     return numero > maiorValor || numero < menorValor
 }
 
-recognition.addEventListener('end', () => recognition.start())
+recognition.addEventListener('end', () => recognition.start)

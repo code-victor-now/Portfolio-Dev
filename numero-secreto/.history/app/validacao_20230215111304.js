@@ -26,7 +26,7 @@ function verificaValor(chute) {
     `
     }
 
-}
+
 
 function chuteInvalido(numero) {
     return Number.isNaN(numero)
@@ -36,4 +36,4 @@ function numeroMaiorOuMenorLimite(numero) {
     return numero > maiorValor || numero < menorValor
 }
 
-recognition.addEventListener('end', () => recognition.start())
+}
