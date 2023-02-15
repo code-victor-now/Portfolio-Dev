@@ -6,15 +6,9 @@ function verificaValor(chute) {
     }
 
     if (numeroMaiorOuMenorLimite(numero)) {
-        elementoChute.innerHTML += `<div>Fale um núemro entre ${menorValor} e ${maiorValor}</div>`
+        elementoChute.innerHTML += `<div>Valor Inválido: o número secreto precisa estar entre ${menorValor} e ${maiorValor}</div>`
         
     }
-
-    if (numero === numeroSecreto)
-        document.body.innerHTML = `
-            <h2>Parabéns! Você é um paranormal!</h2>
-            <h3>O número secreto é o ${numeroSecreto}</h3>
-        ` 
 }
 
 function chuteInvalido(numero) {

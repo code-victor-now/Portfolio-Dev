@@ -10,11 +10,8 @@ function verificaValor(chute) {
         
     }
 
-    if (numero === numeroSecreto)
-        document.body.innerHTML = `
-            <h2>Parabéns! Você é um paranormal!</h2>
-            <h3>O número secreto é o ${numeroSecreto}</h3>
-        ` 
+    if (numero = numeroSecreto)
+        elementoChute.innerHTML =+ `<div>Você acertou o número secreto! Parabéns!</div>` 
 }
 
 function chuteInvalido(numero) {
