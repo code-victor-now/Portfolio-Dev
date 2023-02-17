@@ -6,6 +6,6 @@ function mandaMsg() {
     console.log("Solicitação");
 }
 
-setTimeout(mandaMsg, 5000);
+mandaMsg();
 
 console.log("Adeus");
